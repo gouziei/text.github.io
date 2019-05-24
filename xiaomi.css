@@ -1,0 +1,308 @@
+html,
+body,
+h1,h2,h3,
+p,
+ul,li,
+ol,
+input {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color:#999;
+}
+a:hover {
+    color:#e33333;
+}
+ul,ol {
+    list-style: none;
+}
+input,img {
+    border:none;
+    outline: none;
+}
+body {
+    font-size: 12px;
+    background-color: #f0f3ef;
+}
+
+/* 那里要设置文字颜色为红,就在那里添加这个类. */
+.fontColorRed {
+    color:red;
+}
+
+/* 清除浮动带来的影响的代码 */
+.clearfix::after {
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+/* 设置字体图标的css */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot');
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../iconfont/iconfont.woff2') format('woff2'),
+        url('../iconfont/iconfont.woff') format('woff'),
+        url('../iconfont/iconfont.ttf') format('truetype'),
+        url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.body{
+    background-color: #f5f5f5;
+}
+.banxin{
+    height: 100%;
+    width: 1228px;
+    /* background-color: pink; */
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /* overflow: hidden; */
+}
+.top-nav {
+    /* width: 1663px; */
+    height: 40px;
+    background-color: #333333;
+    /* float: left; */
+}
+.top-nav .banxin .left{
+    float: left;
+    display: block;
+    width: 796px;
+    height: 40px;
+   
+}
+.top-nav .banxin .left li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;   
+}
+.top-nav .banxin .left li a{
+    font-size: 14px;
+}
+.top-nav .banxin .left li.line{
+    width: 1px;
+    height: 16px;
+    background-color: #423d38;
+    margin-top: 12px;
+}
+.top-nav .banxin .right{
+    width: 274px;
+    height: 40px;
+    float: right;
+    
+}
+.top-nav .banxin .right li{
+   float: left;
+   height: 40px;
+   line-height: 40px;
+   margin-left: 14px;
+}
+.top-nav .banxin .right li a{
+    font-size: 14px;
+}
+.top-nav .banxin .right li a:hover{
+    background-color:#424242;
+    padding: 12px;
+}
+.logo1{
+    /* display: block;
+    float: left; */
+    height: 100px;
+    width: 100%;
+    background-color: #fff;  
+}
+.logo1 .xielogo{
+    float: left;
+    width: 55px;
+    height: 55px;
+    background: url(./img/logo.png)no-repeat center center;
+    margin-top: 20px;
+}
+.logo1 .xielogo h1{
+    text-indent: -999em;
+}
+.rbian{
+    margin-left: 50px;
+    display: block;
+    float: left;
+    width: 826px;
+    height: 100px;
+    position: relative;
+    left: 0;
+    top: 40px;
+}
+.rbian .wenzhi{
+    display: block;
+    float: left;
+    width: 638px;
+    height: 100px;
+    margin-left: 100px;
+   
+}
+.rbian .wenzhi li{
+    float: left;
+    margin-left: 30px;
+   
+}
+.rbian input{
+    float: left;
+    padding:10px;
+    padding-left: 60px;
+    position: absolute;
+    top: -8px;
+    border: 1px solid #e0e0e0;
+}
+.rbian i{
+    width: 50px;
+    height: 31px;
+    background: url(./img/wx.png)no-repeat;
+    position: absolute;
+    right: -146px;
+    top: -6px;
+    border: 1px solid #e0e0e0;
+}
+.zjbf{
+    /* float: left; */
+    width: 100%;
+    height: 118px;
+    /* background-color:blue; */
+}
+.zjbf p.zr{
+    float: left;
+    font-size: 22px;
+    /* background-color:green; */
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+}
+/* .zjbf ul.zr{
+    float: right;
+    position: absolute;
+    background-color: red;
+    right: 0px;
+    bottom: 20px;
+}
+.zjbf ul.zr li{
+    float: left;
+}
+.zjbf ul.zr li a{
+} */
+.zjbf ul.rz{
+    float: right;
+    /* width: 250px; */
+    /* height: 118px; */
+    position: absolute;
+    /* background-color: red; */
+    right: 0px;
+    bottom: 20px;
+}
+.zjbf ul.rz li{
+    float: left;
+    margin-left: 28px;
+}
+.dahezi{
+    width: 100%;
+    height: 614px;
+    /* background-color:red; */
+}
+.dahezi .kongqi{
+    /* margin-left: 14px; */
+    float: left;
+    width: 234px;
+    height: 614px;
+    background: url(./img/空气净化.jpg)no-repeat;
+
+}
+.dahezi .dadiv{
+    margin-left: 14px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+    background: white url(./img/小米4a电视.png)no-repeat;
+}
+.dahezi .dadiv .wenziei{
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    float: left;
+    height: 140px;
+    width: 234px;
+    /* background-color:skyblue; */
+    text-align: center;
+   
+}
+.dahezi .dadiv .wenziei p:first-child{
+    margin-top: 20px;
+    font-size: 14px;
+   
+}
+.dahezi .dadiv .wenziei p:nth-child(2){
+    margin-top: 5px;
+    color:  #b0b0b0;
+}
+
+.dahezi .dadiv .wenziei p:nth-child(3){
+    margin-top: 18px;
+    color: #ffca5f;
+    
+}
+.dahezi .dadiv .wenziei span{
+    
+    text-decoration: line-through;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+/*
+.dahezi .dadiv .wenziei{
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    float: left;
+    height: 140px;
+    width: 234px;
+    background-color:skyblue;
+    text-align: center;
+   
+}
+.dahezi .dadiv .wenziei p:first-child{
+    margin-top: 20px;
+    font-size: 14px;
+   
+}
+.dahezi .dadiv .wenziei p:nth-child(2){
+    margin-top: 5px;
+    color:  #b0b0b0;
+}
+
+.dahezi .dadiv .wenziei p:nth-child(3){
+    margin-top: 18px;
+    color: #ffca5f;
+    
+}
+.dahezi .dadiv .wenziei span{
+    text-decoration: line-through;
+    color: #b0b0b0;
+    font-size: 12px;
+} */
+
